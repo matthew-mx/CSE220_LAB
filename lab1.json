@@ -1,0 +1,12 @@
+{
+    "architecture": "sunny_cove",
+    "workloads_list": [
+        "500.perlbench_r"
+    ],
+    "experiment": "lab1",
+    "configurations": {
+        "baseline": "--map_cycles 5 --issue_width 4",
+        "map_10": "--map_cycles 10",
+        "issue_width_10": "--issue_width 10 --node_ret_width 10"
+  }
+}
